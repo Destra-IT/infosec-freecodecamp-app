@@ -7,13 +7,6 @@ const app = express()
 
 
 
-app.listen(PORT, () => {
-  console.log(`Useful programmer info seecurity app started on port ${PORT}`);
-});
-
-
-
-
 
 
 
@@ -57,5 +50,5 @@ app.get("/", function (request, response) {
 });
 let port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log(`Your app is listening on port ${port}`);
+  console.log(`Useful programmer info seecurity app started on port ${PORT}`);
 });
