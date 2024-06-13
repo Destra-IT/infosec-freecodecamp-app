@@ -17,7 +17,7 @@ app.use(helmet.contentSecurityPolicy({
     scriptSrc: ["'self'",'trusted-cdn.com']}
     }));
 
-    app.use(helmet{
+    app.use(helmet({
       frameguard: { 
         action: "deny" 
       },
@@ -27,7 +27,7 @@ app.use(helmet.contentSecurityPolicy({
           scriptSrc: ["'self'",'trusted-cdn.com']
           },
 
-     }});
+     }}));
 
 
 
